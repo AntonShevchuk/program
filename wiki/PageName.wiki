@@ -1,0 +1,12 @@
+#summary Introduction
+#labels Featured,Phase-Requirements
+
+= Introduction =
+
+The package "Program" is to provide outer programs managing capabilities - in other words this is enhanced console
+
+= Features =
+ * Program management
+
+= Requirements =
+ * PEAR >= 1.5.1
