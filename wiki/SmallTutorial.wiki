@@ -39,6 +39,11 @@ Get params
 $mplayer->getParams();
 }}}
 
+Clear params
+{{{
+$mplayer->clearParams();
+}}}
+
 = Input/Output file =
 
 For many application you can set input and output file:
@@ -51,7 +56,4 @@ For many application you can set input and output file:
 = Execute program =
 
 For run program use method *exec* or *execInBackground* (for unix systems only)
-Clear params
-{{{
-$mplayer->clearParams();
-}}}
+
