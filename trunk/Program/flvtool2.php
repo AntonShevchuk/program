@@ -1,5 +1,4 @@
 <?php
-
 // {{{ class Program_flvtool2 extends Program_Common
 /**
  * Class Program_flvtool2
@@ -13,6 +12,17 @@
  */
 class Program_flvtool2 extends Program_Common
 {
+    // {{{ Variables (Properties)
+    
+    /**
+     * full path to binary
+     *
+     * @var string
+     * @access protected
+     */
+    var $bin = 'flvtool2';
+    
+    // }}}
     // {{{ function addMetaTags() 
     
     /**

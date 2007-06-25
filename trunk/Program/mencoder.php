@@ -30,6 +30,17 @@ define('PROGRAM_MENCODER_LAVCOPTS_QUALITY_DVD',  'vcodec=mpeg2video:vrc_buf_size
  */
 class Program_mencoder extends Program_Common
 {
+    // {{{ Variables (Properties)
+    
+    /**
+     * full path to binary
+     *
+     * @var string
+     * @access protected
+     */
+    var $bin = 'mencoder';
+    
+    // }}}
     // {{{ function setScale($aWitdh, $aHeight)
     
     /**

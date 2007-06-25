@@ -12,6 +12,17 @@
  */
 class Program_php extends Program_Common
 {
+    // {{{ Variables (Properties)
+    
+    /**
+     * full path to binary
+     *
+     * @var string
+     * @access protected
+     */
+    var $bin = 'php';
+    
+    // }}}
     // {{{ function runFile($aFile) 
     
     /**
