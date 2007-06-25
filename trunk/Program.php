@@ -46,6 +46,7 @@ Program_Common
  *
  * @category   Program
  * @package    Program
+ * @version    0.0.2
  * @author     Anton Shevchuk <AntonShevchuk@gmail.com>
  * @copyright  2007 Anton Shevchuk
  * @license    http://www.opensource.org/licenses/bsd-license.php  New BSD License
