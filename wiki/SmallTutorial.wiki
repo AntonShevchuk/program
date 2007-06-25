@@ -1,0 +1,19 @@
+#summary tutorial
+
+= Initialization =
+
+For initialization Program package insert next code:
+
+{{{
+include_once 'Program.php';
+}}}
+
+= Create Program entity =
+
+For create entity of program you should be use method factory:
+
+{{{
+// set your paths
+$mplayer  =& Program::factory('mplayer',  array('debug' => true, 'binary' => '/usr/bin/mplayer'));
+}}}
+
