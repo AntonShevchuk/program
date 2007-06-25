@@ -20,6 +20,17 @@ class Program_mplayer extends Program_Common
     // {{{ Variables (Properties)
     
     /**
+     * full path to binary
+     *
+     * @var string
+     * @access protected
+     */
+    var $bin = 'mplayer';
+    
+    // }}}
+    // {{{ Variables (Properties)
+    
+    /**
      * input media file data
      *
      * @var array

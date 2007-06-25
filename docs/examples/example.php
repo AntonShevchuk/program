@@ -1,5 +1,5 @@
 <?php
-include_once 'Program/Program.php';
+include_once 'Program.php';
 
 // set your paths
 $mplayer  =& Program::factory('mplayer',  array('debug' => true, 'binary' => '/usr/bin/mplayer'));
