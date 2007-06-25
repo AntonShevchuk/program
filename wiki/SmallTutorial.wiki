@@ -13,7 +13,44 @@ include_once 'Program.php';
 For create entity of program you should be use method factory:
 
 {{{
-// set your paths
-$mplayer  =& Program::factory('mplayer',  array('debug' => true, 'binary' => '/usr/bin/mplayer'));
+// set full path to program binary
+$mplayer  =& Program::factory('mplayer',  array('binary' => '/usr/bin/mplayer'));
 }}}
 
+= Params Manipulation =
+
+You can add any params to execute string:
+
+{{{
+// add param string
+$mplayer -> addParam('video_in.avi');
+$mplayer -> addParamsString('video_in.avi');
+
+// add param prefix and value
+$mplayer -> addParam('-sstep', 4);
+
+// add params array
+$mplayer -> addParams(array('video_in.avi', '-sstep' => 4));
+}}}
+
+Get params
+{{{
+$mplayer->getParams();
+}}}
+
+= Input/Output file =
+
+For many application you can set input and output file:
+
+ * setInputFile
+ * getInputFile
+ * setOutputFile
+ * getOutputFile
+
+= Execute program =
+
+For run program use method *exec* or *execInBackground* (for unix systems only)
+Clear params
+{{{
+$mplayer->clearParams();
+}}}
